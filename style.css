@@ -1,0 +1,32 @@
+.navbar{
+	margin-bottom:0;
+	border-radius:0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	/*color: white;*/
+	background-blend-mode: soft-light;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-height: auto;
+}
+
+.outer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.center {
+	position: relative;
+	height: 100%;
+}
+
+
